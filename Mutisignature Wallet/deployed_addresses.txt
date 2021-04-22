@@ -1,0 +1,2 @@
+# It is a MultiSigWallet, hence the user deploys the the wallet when he defines owner addresses and Confirmations
+

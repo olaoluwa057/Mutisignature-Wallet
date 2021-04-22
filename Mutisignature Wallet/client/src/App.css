@@ -1,0 +1,369 @@
+.App {
+ position: relative;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+
+.landingPage{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(45deg, rgba(0, 0, 128, 0.3), rgba(0, 0, 0, 0.5)), url('https://img.freepik.com/free-vector/young-businessmen-agreement-partners-growth-revenue-schedules-flat-character-concept-web-design_130740-672.jpg?size=626&ext=jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.deploy-form{
+  height: auto;
+  width: 30vw;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  padding-bottom: 2rem;
+} 
+.deploy-form input{
+  width: 20rem;
+  height: 1.3rem;
+  margin-top: 1rem;
+}
+.confirmations-input{
+  text-align: center;
+}
+.deploy-form input::placeholder{
+  text-align: center;
+}
+input:focus{
+  outline: none;
+}
+.deploy-form h3{
+  font-size: 1.5rem;
+  color: rgb(0, 128, 128);
+  font-style: oblique;
+}
+.deploy-form button{
+  border: none;
+  height: auto;
+  width: auto;
+  padding: 0.5rem 1.2rem;
+  background-color:rgb(0, 128, 128,0.6);
+  color: rgba(255, 255, 255);
+  font-size: 0.85rem;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  
+}
+.deploy-form button:hover{
+  background-color: rgb(0, 128, 128);
+
+}
+.top-nav{
+  background-color: rgb(0, 128, 128); 
+  height: 7vh;
+  margin-bottom: 2rem;
+  width: 100%;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  left:0;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  
+  box-shadow: 0.03rem 0.03rem 0.4rem 0.15rem rgba(0,0,0, 0.5);
+}
+.top-nav button {
+  height: 100%;
+  width: auto;
+  margin-left: 10%;
+  border: none;
+  background-color:rgba(255, 0,0, 0.8);
+  color: rgba(255, 255, 255, 0.8);
+}
+.top-nav button:hover{
+  background-color:rgba(255, 0,0);
+  color: rgba(255, 255, 255);
+}
+
+.contractAddress-span{
+  margin-left: auto;
+  margin-right: 1rem;
+  color: white;
+}
+.balance-span{
+  margin-left: 30%;
+  color: white;
+}
+.balance{
+  font-style: italic;
+  font-style: oblique;
+  color: rgba(0,0,0);
+}
+.contractAddress{
+  font-style: italic;
+  font-style: oblique;
+  color: rgba(0,0,0);
+}
+
+/*.handshake-icon{
+  height: 100px;
+  width: 100px;
+} */
+button:focus{
+  outline: none !important;
+
+}
+.sideNav{
+  background-color: rgb(0, 128, 128);
+  height: 100vh;
+  width: 5vw;
+  position: relative;
+  position: fixed;
+
+}
+/*.nav-icon{
+  position: absolute;
+  width: 90%;
+  height: 4rem;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.icon-home{
+  top: 30%;
+  transform: translate(-50%, -30%);
+} */
+.nav-images{
+  position: absolute;
+  width: 100%;
+  
+  height: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+.dashboard{
+  height: 100vh;
+  position: fixed;
+  position: relative;
+}
+
+.nav-icon{
+  width: 80%;
+  height: 3rem;
+  border-radius: 50%;
+
+}
+.active-icon{
+  transform: scale(1.25);
+}
+
+.owners-list{
+  text-align: center;
+  color: rgb(0, 128, 128);
+  height: auto;
+  width: 18rem;
+  margin-right: 3rem;
+  padding: 0.3rem;
+  box-shadow: 0.03rem 0.03rem 0.4rem 0.15rem rgba(0,0,0, 0.5);
+  
+  
+}
+.owner-address{
+  display: block;
+  font-size: 0.8rem;
+  font-style: italic;
+  color:rgba(0, 0, 0, 0.7);
+}
+.confirmation-no{
+  font-size: 0.8rem;
+  font-style: italic;
+  color:rgba(0, 0, 0, 0.7);
+}
+.dashHome{
+  height: 90vh;
+  margin-top: 2.5rem;
+  width: 90vw;
+  position: absolute;
+  top: 3%;
+  left: 7%;
+  
+  
+}
+
+.addTxForm{
+  height: auto;
+  width: 30vw;
+  padding: 2rem;
+  box-shadow: 0.03rem 0.03rem 0.4rem 0.15rem rgba(0,0,0, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+
+}
+.addTxForm h3{
+  color:rgb(0, 128, 128);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.addTxForm input{
+  margin-top: 1rem;
+  width: 90%;
+  height: 2rem;
+}
+.addTxForm input::placeholder{
+  text-align: center;
+}
+.addTxForm button{
+  margin-top: 1rem;
+  width: auto;
+  
+  background-color:rgb(0, 128, 128);
+  color: rgba(255, 255, 255);
+  border: none;
+  padding: 0.5rem 2.5rem;
+  cursor: pointer;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.addTxForm button:hover{
+  background-color: rgb(0, 128, 128, 0.8);
+  color: rgba(255,255,255)
+}
+.addTxForm input{
+  text-align: center;
+}
+.addTxForm input:focus{
+  outline: none;
+}
+
+.tx-comp{
+  height: auto;
+  width: 90vw;
+  margin:2rem 1rem;
+  position: absolute;
+  top: 10%;
+  
+  
+}
+.txbtns{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  border: none;
+  display: flex;
+  width: auto !important;
+  justify-content: center;
+  justify-content: space-between;
+  
+}
+.switchBtn{
+  border: none;
+  background-color:rgb(0, 128, 128,0.6);
+  color: rgba(255, 255, 255);
+  border: none;
+  width: auto !important;
+  height: auto !important;
+  padding: 0.5rem 1rem !important;
+  cursor: pointer;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0.5rem;
+}
+
+.txbtns button:hover,
+.txbtn-active{
+  background-color:rgb(0, 128, 128);
+}
+.tx-table-div{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 3rem;
+  width: auto !important;
+  color:rgb(0, 128, 128);
+  font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  
+  
+}
+
+.tx-details{
+ 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+
+.tx-table-div h3{
+  margin-left: 5%;
+  margin-top: 1rem;
+  font-size: 1.3rem !important;
+  text-align: center;
+  width: 100%;
+  
+
+}
+
+tr{
+  font-size: 0.8rem;
+}
+
+td button{
+  border: none;
+  background-color: rgb(0, 128, 128, 0.8);
+  color: white;
+}
+td button:hover{
+  background-color: rgb(0, 128, 128);
+}
+td img{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.revoke-btn{
+  background-color: red;
+}
+.revoke-btn:hover{
+  background-color:  rgb(199, 0, 57) 
+}
+.tx-table{
+  width: auto;
+}
+.loader-content{
+  height: 10rem;
+  width: auto;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  
+  
+  
+ 
+}
+
